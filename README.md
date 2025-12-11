@@ -1,3 +1,5 @@
+![Bilgisayar Efektif Kullanım Banner](assets/banner.png)
+
 # 🚀 Bilgisayar Efektif Kullanım Kılavuzu
 
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=github)
@@ -27,11 +29,15 @@ Bu depo, sıradan bir kullanıcıdan **power user** seviyesine geçmeniz için g
 
 ## 🌟 Öne Çıkan Özellikler
 
-*   **Tek Tıkla Temizlik:** Temp, Prefetch ve gereksiz güncelleme artıkları saniyeler içinde yok olur.
-*   **Gelişmiş Optimizasyon:** RAM temizleme (Garbage Collection), SSD TRIM ve DNS önbellek temizliği.
-*   **Bloatware Kaldırma:** Windows ile gelen gereksiz uygulamalardan (Xbox, Bing, Skype vb.) kurtulun.
-*   **Developer Ready:** Ubuntu makinenizi tek script ile Full-Stack geliştirme ortamına çevirin (Docker, VS Code, Node.js, Python...).
-*   **Gizli Kısayollar:** Farenizi çöpe attıracak klavye kombo listeleri.
+## 🌟 Öne Çıkan Özellikler
+
+| Özellik | Açıklama |
+| :--- | :--- |
+| **🧹 Tek Tıkla Temizlik** | Temp, Prefetch ve gereksiz güncelleme artıklarını saniyeler içinde yok eder. |
+| **🚀 Gelişmiş Optimizasyon** | RAM temizleme (Garbage Collection), SSD TRIM ve DNS önbellek temizliği ile sistemi hızlandırır. |
+| **🗑️ Bloatware Kaldırma** | Windows ile gelen gereksiz uygulamalardan (Xbox, Bing, Skype vb.) kurtulmanızı sağlar. |
+| **🐧 Developer Ready** | Ubuntu makinenizi tek script ile Full-Stack geliştirme ortamına çevirir (Docker, VS Code, Node.js, Python...). |
+| **⌨️ Gizli Kısayollar** | Verimliliğinizi artıracak, fareyi unutturacak klavye kombo listeleri. |
 
 ---
 
@@ -68,6 +74,24 @@ Yeni format atılmış bir Ubuntu (22.04/24.04) için "hepsi bir arada" kurulum 
 *   **Terminal:** `zsh`, `oh-my-zsh`, `tmux`, `bat` (renkli cat), `exa` (modern ls).
 *   **Geliştirme:** VS Code (resmi repo), Docker & Docker Compose.
 *   **Ağ & Araçlar:** Postman, Nmap.
+
+---
+
+## 📂 Proje Yapısı
+
+```plaintext
+bilgisayar_efektif__kullanim/
+├── assets/             # Görsel materyaller ve logolar
+├── docs/               # Detaylı dokümantasyon ve rehberler
+├── scripts/            # Otomasyon scriptleri (PowerShell, Bash)
+│   ├── lenovo_optimizer.ps1
+│   ├── turbu.ps1
+│   └── ubuntu_setup.sh
+├── CONTRIBUTING.md     # Katkıda bulunma rehberi
+├── CODE_OF_CONDUCT.md  # Davranış kuralları
+├── LICENSE             # MIT Lisansı
+└── README.md           # Proje ana sayfası
+```
 
 ---
 

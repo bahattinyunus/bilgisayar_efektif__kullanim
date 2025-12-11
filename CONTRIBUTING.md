@@ -21,3 +21,7 @@ Her türlü katkıyı memnuniyetle karşılıyoruz: hata bildirimleri, özellik 
 *   Saygılı ve yapıcı bir iletişim dili kullanın.
 
 Teşekkürler! 🚀
+
+## Davranış Kuralları
+
+Lütfen katılımınızın herkes için hoş bir deneyim olmasını sağlamak adına [Davranış Kurallarımıza](CODE_OF_CONDUCT.md) uyun.
