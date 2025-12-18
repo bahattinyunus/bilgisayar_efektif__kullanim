@@ -1,161 +1,80 @@
-![Bilgisayar Efektif Kullanım Banner](assets/banner.png)
+![Computer Efficiency Banner](assets/banner_new.png)
 
-# 🚀 Bilgisayar Efektif Kullanım Kılavuzu
+# ⚡ Computer Efficiency Mastery: The Power User Manifesto
 
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=github)
-![OS](https://img.shields.io/badge/OS-Windows%20%7C%20Linux-blue?style=for-the-badge&logo=windows)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![PRs](https://img.shields.io/badge/PRs-Welcome-ff69b4?style=for-the-badge)
+> "Bilgisayarını değil, bilgisayarın seni kullansın." — Power User Motto
 
-**Bilgisayarınızın gerçek potansiyelini ortaya çıkarın!** ⚡
+![Total Files](https://img.shields.io/github/directory-file-count/bahattinyunus/bilgisayar_efektif__kullanim?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge)
+![Neovim](https://img.shields.io/badge/Vim-Mastery-green?style=for-the-badge&logo=neovim)
+![Terminal](https://img.shields.io/badge/Terminal-Focus-black?style=for-the-badge&logo=windowsterminal)
 
-Bu depo, sıradan bir kullanıcıdan **power user** seviyesine geçmeniz için gerekli olan otomasyon scriptleri, performans ayarları, kısayol hileleri ve geliştirici araçlarını içerir.
-
----
-
-## 📑 İçerik Tablosu
-
-*   [🌟 Öne Çıkan Özellikler](#-öne-çıkan-özellikler)
-*   [⚡ Otomasyon Scriptleri](#-otomasyon-scriptleri)
-    *   [1. Lenovo Performance Optimizer](#1-lenovo-performance-optimizer)
-    *   [2. Windows 11 Turbo Boost](#2-windows-11-turbo-boost)
-    *   [3. Ultimate Ubuntu Setup](#3-ultimate-ubuntu-setup)
-*   [📚 Dokümantasyon & Kısayollar](#-dokümantasyon--kısayollar)
-*   [🛠️ Kurulum ve Kullanım](#️-kurulum-ve-kullanım)
-*   [⚠️ Yasal Uyarı](#️-yasal-uyarı)
-*   [🤝 Katkıda Bulunma](#-katkıda-bulunma)
+Bu depo, sıradan bir bilgisayar kullanıcısını **Elite Power User** seviyesine taşımak için tasarlanmış bir bilgi ve otomasyon merkezidir. Fare kullanımını %90 oranında azaltmaya, terminale hükmetmeye ve klavyenizi bir enstrüman gibi kullanmaya hazır mısınız?
 
 ---
 
-## 🌟 Öne Çıkan Özellikler
+## 🌌 Temel Sütunlar (The Core Pillars)
 
-## 🌟 Öne Çıkan Özellikler
+Verimlilik üç ana sütun üzerine inşa edilir. Bu depoda her biri için derinlemesine rehberler ve araçlar bulacaksınız:
 
-| Özellik | Açıklama |
-| :--- | :--- |
-| **🧹 Tek Tıkla Temizlik** | Temp, Prefetch ve gereksiz güncelleme artıklarını saniyeler içinde yok eder. |
-| **🚀 Gelişmiş Optimizasyon** | RAM temizleme (Garbage Collection), SSD TRIM ve DNS önbellek temizliği ile sistemi hızlandırır. |
-| **🗑️ Bloatware Kaldırma** | Windows ile gelen gereksiz uygulamalardan (Xbox, Bing, Skype vb.) kurtulmanızı sağlar. |
-| **🐧 Developer Ready** | Ubuntu makinenizi tek script ile Full-Stack geliştirme ortamına çevirir (Docker, VS Code, Node.js, Python...). |
-| **⌨️ Gizli Kısayollar** | Verimliliğinizi artıracak, fareyi unutturacak klavye kombo listeleri. |
+### 🌙 [1. Neovim Mastery](NEOVIM/README.md)
+Dünyanın en güçlü metin editörü. Katmanlar, modlar ve kişiselleştirilebilir Lua konfigürasyonları ile kod yazma hızınızı 3 katına çıkarın.
 
----
+### 💻 [2. Terminal Mastery](TERMINAL/README.md)
+Sadece komut yazmayın, terminali yaşayın. Zsh, PowerShell, `fzf`, `zoxide` ve `ripgrep` gibi modern CLI araçlarıyla dosya sisteminde ışık hızında hareket edin.
 
-## ⚡ Otomasyon Scriptleri
-
-Klasör: [`scripts/`](scripts/)
-
-### 1. Lenovo Performance Optimizer
-Dosya: [`lenovo_optimizer.ps1`](scripts/lenovo_optimizer.ps1)
-
-Özellikle **Lenovo Ideapad Gaming** serisi için optimize edilmiştir ancak çoğu Windows cihazda çalışır.
-*   ✅ **RAM & Temp Temizliği:** Bellek sızıntılarını ve şişkinliği alır.
-*   ✅ **Servis Yönetimi:** `SysMain`, `DiagTrack` (Telemetri) gibi arkada kaynak tüketen servisleri kapatır.
-*   ✅ **Güç Planı:** Cihazı otomatik olarak "Yüksek Performans" moduna zorlar.
-*   ✅ **GPU Önceliklendirme:** `Cursor`, `Chrome` ve `VS Code` için grafik kartını öncelikli hale getirir.
-
-### 2. Windows 11 Turbo Boost
-Dosya: [`turbu.ps1`](scripts/turbu.ps1)
-
-Windows 11'i uçuş moduna alan **agresif** bir optimizasyon scripti.
-*   🚀 **Ultimate Performance:** Windows'un gizli "Ultimate" güç modunu aktif eder.
-*   🧹 **Derin Temizlik:** Windows Update artıkları (`dism`) ve Prefetch dosyalarını siler.
-*   ⚡ **Registry Tweak:** Menü gecikmelerini (`MenuShowDelay`) sıfırlar, uygulamaların kapanma süresini hızlandırır.
-*   🛡️ **Defender Hafifletme:** Windows Defender'ın sürekli tarama özelliklerini kısıtlayarak disk kullanımını düşürür.
-*   🗑️ **Bloatware Killer:** Zune, Bing Weather, Skype gibi gömülü uygulamaları kaldırır.
-*   💾 **SSD TRIM:** Diskinizi optimize ederek ömrünü uzatır ve hızını korur.
-
-### 3. Ultimate Ubuntu Setup
-Dosya: [`ubuntu_setup.sh`](scripts/ubuntu_setup.sh)
-
-Yeni format atılmış bir Ubuntu (22.04/24.04) için "hepsi bir arada" kurulum scripti.
-*   **Sistem:** `apt update && upgrade`, temel araçlar (`curl`, `git`, `htop`, `neofetch`).
-*   **Diller:** Python (pip, venv), Node.js (LTS), Java (OpenJDK 17), G++ / GCC.
-*   **Terminal:** `zsh`, `oh-my-zsh`, `tmux`, `bat` (renkli cat), `exa` (modern ls).
-*   **Geliştirme:** VS Code (resmi repo), Docker & Docker Compose.
-*   **Ağ & Araçlar:** Postman, Nmap.
+### 🖼️ [3. Window Management](WINDOW_MANAGEMENT/README.md)
+Ekran alanınızı optimize edin. Windows'ta **PowerToys** ve **GlazeWM**, Linux'ta **i3wm** ve **Hyprland** ile pencereleri elle sürükleme devrini kapatın.
 
 ---
 
-## 📂 Proje Yapısı
+## 📚 Bilgi Merkezi (Knowledge Hub)
 
-```plaintext
-bilgisayar_efektif__kullanim/
-├── assets/             # Görsel materyaller ve logolar
-├── docs/               # Detaylı dokümantasyon ve rehberler
-├── scripts/            # Otomasyon scriptleri (PowerShell, Bash)
-│   ├── lenovo_optimizer.ps1
-│   ├── turbu.ps1
-│   └── ubuntu_setup.sh
-├── CONTRIBUTING.md     # Katkıda bulunma rehberi
-├── CODE_OF_CONDUCT.md  # Davranış kuralları
-├── LICENSE             # MIT Lisansı
-└── README.md           # Proje ana sayfası
-```
+Tüm teknik bilgiler, kısayollar ve dokümantasyonlar artık merkezi bir yapıda:
+
+- ⌨️ **[Shortcuts](KNOWLEDGE/SHORTCUTS/README.md)**: Windows, Linux ve IDE kısayolları.
+- 🧪 **[Labs & Resources](KNOWLEDGE/RESOURCES/LABS/)**: Sistem yönetimi, ağ, güvenlik ve donanım rehberleri (Saha tecrübesi).
+- 📜 **[Templates](KNOWLEDGE/TEMPLATES/)**: Mimari şablonlar, checklistler ve raporlama taslakları.
+- 🌐 **[Network & Homelab](KNOWLEDGE/NETWORK/)**: Ev laboratuvarı ve ağ yapılandırma detayları.
 
 ---
 
-## 📚 Dokümantasyon & Kısayollar
+## 🛠️ İşletim Sistemi & Otomasyon
 
-Klasör: [`docs/`](docs/)
-
-Bilgi güçtür. Klavyenize hakim olun.
-
-| Dosya | İçerik | Seviye |
-|-------|--------|--------|
-| [`shortcuts_quick.md`](docs/shortcuts_quick.md) | Günlük hayatı kurtaran %20'lik kısayol dilimi. | 🟢 Başlangıç |
-| [`shortcuts_detailed.md`](docs/shortcuts_detailed.md) | Windows, Chrome ve VS Code için A'dan Z'ye rehber. | 🔴 İleri |
+| Bölüm | Açıklama | Konum |
+| :--- | :--- | :--- |
+| **🚀 Windows Boost** | Windows'u şişkinliklerden arındırın ve performansı uçurun. | [`OS/WINDOWS/`](OS/WINDOWS/) |
+| **🐧 Linux Setup** | Yeni bir Linux kurulumunu dakikalar içinde "Dev-Ready" hale getirin. | [`OS/LINUX/`](OS/LINUX/) |
+| **📁 Projects** | Geliştirilen mini araçlar ve daemon scriptleri. | [`projects/`](projects/) |
 
 ---
 
-## 🛠️ Kurulum ve Kullanım
+## 🚀 Başlangıç (Quick Start)
 
-### Windows Scriptleri için
-PowerShell scriptlerini çalıştırmadan önce, sisteminizde script çalıştırma iznini açmanız gerekebilir.
+### Windows kullanıcıları için:
+1.  **PowerToys**'u kurun ve **FancyZones**'u yapılandırın.
+2.  [`OS/WINDOWS/boost.ps1`](OS/WINDOWS/boost.ps1) scriptini yönetici olarak çalıştırın.
+3.  **Windows Terminal**'e geçin ve **Oh My Posh** kurun.
 
-1.  **PowerShell**'i Yönetici olarak açın.
-2.  İzin verin:
-    ```powershell
-    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-    ```
-3.  Scripti çalıştırın:
-    ```powershell
-    cd scripts
-    .\turbu.ps1
-    ```
-
-### Linux Scripti için
-Terminali açın ve dosyaya çalıştırma izni verin:
-
-```bash
-chmod +x scripts/ubuntu_setup.sh
-./scripts/ubuntu_setup.sh
-```
+### Linux kullanıcıları için:
+1.  [`OS/LINUX/setup.sh`](OS/LINUX/setup.sh) scriptini çalıştırarak temel araçları kurun.
+2.  Bir **Tiling Window Manager** (i3 veya Hyprland) deneyin.
+3.  Shell olarak **Zsh** ve eklentilerini yapılandırın.
 
 ---
 
-## ⚠️ Yasal Uyarı
+## 🤝 Katkıda Bulunun
 
-Bu scriptler sistem ayarlarını değiştirir (Registry, Servisler, Defender vb.).
-*   Scriptleri çalıştırmadan önce önemli verilerinizi **YEDEKLEYİN**.
-*   Sorumluluk tamamen kullanıcıya aittir.
-*   Özellikle `turbu.ps1` içindeki Defender ayarları güvenlik seviyenizi düşürebilir, bilinçli kullanın.
+Bu proje yaşayan bir organizmadır. Yeni bir Neovim eklentisi mi keşfettiniz? Müthiş bir terminal kısayolunuz mu var? Bir Pull Request gönderin ve "Efficiency" ordusuna katılın!
 
 ---
 
-## 🤝 Katkıda Bulunma
+## 📜 Lisans & Yasal Uyarı
 
-Bu proje açık kaynaktır ve topluluk katkılarıyla büyür. Yeni bir script eklemek veya varolanı düzeltmek mi istiyorsunuz?
-Lütfen [CONTRIBUTING.md](CONTRIBUTING.md) dosyasını okuyun ve bir Pull Request gönderin!
-
----
-
-## 📜 Lisans
-
-Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır. Özgürce kullanabilir, değiştirebilir ve dağıtabilirsiniz.
+Bu proje [MIT Lisansı](LICENSE) ile korunmaktadır. Scriptleri kullanmadan önce yedek almayı unutmayın. Sorumluluk kullanıcıya aittir.
 
 ---
 
 <p align="center">
-  <sub>Maden with ❤️ by Bahattin Yunus.</sub>
+  <sub>Masterfully crafted by <b>Bahattin Yunus</b> with a passion for speed.</sub>
 </p>
