@@ -27,6 +27,18 @@ Tiling window manager kullanıyorsanız şu kısayollar kas hafızanızda olmal�
 | `Mod + Shift + q` | Aktif pencereyi kapat. |
 | `Mod + f` | Tam ekran moduna gir/çık. |
 | `Mod + Shift + e` | Oturumu kapat / Çıkış menüsü. |
+| `Mod + Shift + r` | Tiling WM konfigürasyonunu anında yenile. |
+| `Mod + [Space]` | Tabbed/Stacking modları arasında geçiş yap. |
+
+## ⚙️ Süreç & Sistem Kontrolü (Process Control)
+
+| Komut | İşlev |
+| :--- | :--- |
+| `top` / `htop` / `btop` | Kaynak kullanımını izle. |
+| `kill -9 [PID]` | Süreci zorla sonlandır. |
+| `pkill [isim]` | İsme göre uygulama kapat. |
+| `systemctl status [servis]` | Servis durumuna bak. |
+| `journalctl -u [servis] -f` | Canlı servis loglarını izle. |
 
 ## 🛠️ Paket Yönetimi (Debian/Ubuntu)
 

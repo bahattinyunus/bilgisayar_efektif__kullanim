@@ -2,79 +2,80 @@
 
 # ⚡ Computer Efficiency Mastery: The Power User Manifesto
 
-> "Bilgisayarını değil, bilgisayarın seni kullansın." — Power User Motto
+> "Bilgisayarını değil, bilgisayarın seni kullansın. Az hareket, çok iş." — Power User Motto
 
 ![Total Files](https://img.shields.io/github/directory-file-count/bahattinyunus/bilgisayar_efektif__kullanim?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge)
 ![Neovim](https://img.shields.io/badge/Vim-Mastery-green?style=for-the-badge&logo=neovim)
 ![Terminal](https://img.shields.io/badge/Terminal-Focus-black?style=for-the-badge&logo=windowsterminal)
 
-Bu depo, sıradan bir bilgisayar kullanıcısını **Elite Power User** seviyesine taşımak için tasarlanmış bir bilgi ve otomasyon merkezidir. Fare kullanımını %90 oranında azaltmaya, terminale hükmetmeye ve klavyenizi bir enstrüman gibi kullanmaya hazır mısınız?
+Bu depo, sıradan bir bilgisayar kullanıcısını **Power User** seviyesine taşımak için tasarlanmış bir bilgi ve otomasyon merkezidir. 
 
 ---
 
-## 🌌 Temel Sütunlar (The Core Pillars)
+## 🗺️ Hızlı Navigasyon (Quick Navigation)
 
-Verimlilik üç ana sütun üzerine inşa edilir. Bu depoda her biri için derinlemesine rehberler ve araçlar bulacaksınız:
-
-### 🌙 [1. Neovim Mastery](NEOVIM/README.md)
-Dünyanın en güçlü metin editörü. Katmanlar, modlar ve kişiselleştirilebilir Lua konfigürasyonları ile kod yazma hızınızı 3 katına çıkarın.
-
-### 💻 [2. Terminal Mastery](TERMINAL/README.md)
-Sadece komut yazmayın, terminali yaşayın. Zsh, PowerShell, `fzf`, `zoxide` ve `ripgrep` gibi modern CLI araçlarıyla dosya sisteminde ışık hızında hareket edin.
-
-### 🖼️ [3. Window Management](WINDOW_MANAGEMENT/README.md)
-Ekran alanınızı optimize edin. Windows'ta **PowerToys** ve **GlazeWM**, Linux'ta **i3wm** ve **Hyprland** ile pencereleri elle sürükleme devrini kapatın.
-
----
-
-## 📚 Bilgi Merkezi (Knowledge Hub)
-
-Tüm teknik bilgiler, kısayollar ve dokümantasyonlar artık merkezi bir yapıda:
-
-- ⌨️ **[Shortcuts](KNOWLEDGE/SHORTCUTS/README.md)**: Windows, Linux ve IDE kısayolları.
-- 🧪 **[Labs & Resources](KNOWLEDGE/RESOURCES/LABS/)**: Sistem yönetimi, ağ, güvenlik ve donanım rehberleri (Saha tecrübesi).
-- 📜 **[Templates](KNOWLEDGE/TEMPLATES/)**: Mimari şablonlar, checklistler ve raporlama taslakları.
-- 🌐 **[Network & Homelab](KNOWLEDGE/NETWORK/)**: Ev laboratuvarı ve ağ yapılandırma detayları.
+| Alan | Açıklama | Ana Durak |
+| :--- | :--- | :--- |
+| **🌙 Neovim** | Editör ustalığı ve Vim motions. | [NEOVIM/](NEOVIM/README.md) |
+| **💻 Terminal Mastery** | Modern CLI araçları ve Shell sync. | [TERMINAL/](TERMINAL/README.md) |
+| **🖼️ Window Management** | Tiling WM, PowerToys ve Boost. | [WINDOW_MANAGEMENT/](WINDOW_MANAGEMENT/README.md) |
+| **⌨️ Kısayollar** | Sistem, browser ve IDE kombinasyonları. | [KNOWLEDGE/SHORTCUTS/](KNOWLEDGE/SHORTCUTS/README.md) |
+| **🐙 Workflows** | Git, Docker ve Tmux ustalığı. | [WORKFLOWS/](WORKFLOWS/) |
+| **🤖 AI Efficiency** | LLM & Copilot kullanımı. | [AI/](AI/README.md) |
+| **🛠️ Tools** | Browser & Note-Taking (Obsidian). | [TOOLS/](TOOLS/) |
+| **🧱 Hardware** | Ergonomi ve Donanım optimizasyonu. | [HARDWARE/](HARDWARE/README.md) |
+| **🧪 Lablar** | Ağ, Güvenlik ve Donanım tecrübeleri. | [KNOWLEDGE/RESOURCES/LABS/README.md](KNOWLEDGE/RESOURCES/LABS/README.md) |
 
 ---
 
-## 🛠️ İşletim Sistemi & Otomasyon
+## 🏗️ Temel Sütunlar (The Core Pillars)
+
+### **1. 🌙 Editor Master: Neovim**
+- 🧘 **[Vim Motions Mastery](NEOVIM/GUIDES/VIM_MOTIONS.md)**: Fareyi hayatınızdan çıkarın.
+- ⚙️ **[Starter Configs](NEOVIM/CONFIGS/)**: Kendi konfigürasyonunuzu kurun.
+
+### **2. 💻 Shell Master: Terminal**
+- 🐆 **[Modern CLI Cheatsheet](TERMINAL/MODERN_CLI_CHEATSHEET.md)**: `fzf`, `rg`, `zoxide`.
+- 🐚 **[Shell Configurations](TERMINAL/SHELL/)**: Zsh & PowerShell.
+
+### **3. 🐙 Process Master: Workflows**
+- 🐙 **[Git Mastery](WORKFLOWS/GIT/README.md)**: Aliaslar ve profesyonel akış.
+- 🐳 **[Docker Efficiency](WORKFLOWS/DOCKER/README.md)**: Hızlı build ve yönetim.
+- 🪟 **[Tmux Mastery](WORKFLOWS/TMUX/README.md)**: Terminal multiplexing.
+
+### **4. 🛠️ Tool Master: Browsers & Notes**
+- 🌐 **[Browser Mastery](TOOLS/BROWSER/README.md)**: Uzantılar ve [Elite Kısayollar](TOOLS/BROWSER/SHORTCUTS.md).
+- 💎 **[Note-Taking (Obsidian)](TOOLS/NOTE_TAKING/README.md)**: İkinci beyin inşası.
+
+---
+
+## 🚀 İşletim Sistemi Optimizasyonu
 
 | Bölüm | Açıklama | Konum |
 | :--- | :--- | :--- |
-| **🚀 Windows Boost** | Windows'u şişkinliklerden arındırın ve performansı uçurun. | [`OS/WINDOWS/`](OS/WINDOWS/) |
-| **🐧 Linux Setup** | Yeni bir Linux kurulumunu dakikalar içinde "Dev-Ready" hale getirin. | [`OS/LINUX/`](OS/LINUX/) |
-| **📁 Projects** | Geliştirilen mini araçlar ve daemon scriptleri. | [`projects/`](projects/) |
+| **🚀 Windows Boost** | Windows'u şişkinliklerden arındırın. | [`OS/WINDOWS/boost.ps1`](OS/WINDOWS/boost.ps1) |
+| **🐧 Linux Setup** | "Dev-Ready" sistem kurulumu. | [`OS/LINUX/setup.sh`](OS/LINUX/setup.sh) |
+| **🎮 Windows Master** | [Elite Kısayollar](KNOWLEDGE/SHORTCUTS/WINDOWS_MASTER.md) & Winget. | [`WINDOWS_MASTER.md`](KNOWLEDGE/SHORTCUTS/WINDOWS_MASTER.md) |
+| **🐧 Linux Survival** | [Tiling & Process](OS/LINUX/LINUX_SURVIVAL.md) Mastery. | [`LINUX_SURVIVAL.md`](OS/LINUX/LINUX_SURVIVAL.md) |
 
 ---
 
-## 🚀 Başlangıç (Quick Start)
+## 🧠 Geleceğin Teknolojisi & Donanım
 
-### Windows kullanıcıları için:
-1.  **PowerToys**'u kurun ve **FancyZones**'u yapılandırın.
-2.  [`OS/WINDOWS/boost.ps1`](OS/WINDOWS/boost.ps1) scriptini yönetici olarak çalıştırın.
-3.  **Windows Terminal**'e geçin ve **Oh My Posh** kurun.
-
-### Linux kullanıcıları için:
-1.  [`OS/LINUX/setup.sh`](OS/LINUX/setup.sh) scriptini çalıştırarak temel araçları kurun.
-2.  Bir **Tiling Window Manager** (i3 veya Hyprland) deneyin.
-3.  Shell olarak **Zsh** ve eklentilerini yapılandırın.
+- 🤖 **[AI Efficiency](AI/README.md)**: LLM teknikleri ve AI asistanları.
+- ⌨️ **[Hardware & Ergonomics](HARDWARE/README.md)**: Mekanik klavyeler ve sağlık.
 
 ---
 
-## 🤝 Katkıda Bulunun
+## 🏛️ Arşiv & Meta
 
-Bu proje yaşayan bir organizmadır. Yeni bir Neovim eklentisi mi keşfettiniz? Müthiş bir terminal kısayolunuz mu var? Bir Pull Request gönderin ve "Efficiency" ordusuna katılın!
-
----
-
-## 📜 Lisans & Yasal Uyarı
-
-Bu proje [MIT Lisansı](LICENSE) ile korunmaktadır. Scriptleri kullanmadan önce yedek almayı unutmayın. Sorumluluk kullanıcıya aittir.
+- 📜 **[Legacy Plans](ARCHIVE/plans_legacy/)**: Arşivlenmiş planlar.
+- 📂 **[Mini Projeler](projects/)**: Ekstra araçlar.
+- 🤝 **[Katkıda Bulunma](CONTRIBUTING.md)** | 🛡️ **[Güvenlik](SECURITY.md)** | ⚖️ **[Davranış Kuralları](CODE_OF_CONDUCT.md)**
 
 ---
 
 <p align="center">
-  <sub>Masterfully crafted by <b>Bahattin Yunus</b> with a passion for speed.</sub>
+  <sub>Masterfully crafted by <b>Bahattin Yunus</b> with a passion for speed. 🚀</sub>
 </p>

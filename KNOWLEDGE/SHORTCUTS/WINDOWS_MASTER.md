@@ -22,6 +22,17 @@ Microsoft PowerToys kuruluysa şu sihirli kombinasyonları kullanın:
 | `Win + Shift + C` | **Color Picker** | Ekrandaki herhangi bir rengin kodunu anında al. |
 | `Win + Shift + T` | **Text Extractor** | Ekrandaki herhangi bir görselden metin kopyala (OCR). |
 | `Win + Ctrl + T` | **Always On Top** | Pencereyi her zaman en üstte tut. |
+| `Win + V` | **Clipboard Mastery** | Panoyu aç ve kopyalanan her şeye (metin, görsel) eriş. |
+| `Win + .` | **Emoji & Symbols** | Hızlı emoji, sembol ve gif menüsü. |
+
+## 🆘 Sistem Acil Durum & Tanılama
+
+| Kısayol | İşlev |
+| :--- | :--- |
+| `Win + Ctrl + Shift + B` | **Grafik Driver Reset**: Ekran donarsa veya kararırsa sürücüyü canlandırır. |
+| `Ctrl + Shift + Esc` | **Görev Yöneticisi**: Hız kesmeden direkt olarak açar. |
+| `Win + L` | **Sistemi Kilitle**: Anında güvenlik. |
+| `Win + P` | **Projekston**: Çoklu monitör ayarlarını hızla değiştir. |
 
 ## ⚡ Gelişmiş "Çalıştır" (Win + R) Komutları
 
