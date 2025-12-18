@@ -9,6 +9,18 @@ Neovim sadece bir metin editörü değil, bir yaşam biçimidir. Fareyi hayatın
 - **Kişiselleştirme**: Lua ile her köşesini kendinize göre özelleştirin.
 - **Hafiflik**: Sistem kaynaklarını minimum düzeyde kullanır.
 
+---
+
+## 🥋 Neovim-Fu: Dojo Deneyimi
+
+Eğer Neovim yolunda gerçekten ustalaşmak istiyorsanız, kuşak sistemine dayalı interaktif eğitim depoma göz atın:
+
+👉 **[Neovim-Fu: The Dojo for Vim Masters](https://github.com/bahattinyunus/Neovim-Fu)**
+
+*Beyaz kuşaktan siyah kuşağa kadar adım adım bir gelişim serüveni!*
+
+---
+
 ## 🗺️ Yol Haritası
 
 ### 1. Temel Hareketler (The Basics)
